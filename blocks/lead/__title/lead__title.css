@@ -7,14 +7,16 @@
   padding: 0;
   max-width: 720px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 785px) {
   .lead__title {
     font-size: 74px;
+    max-width: 600px;
   }
 }
 @media screen and (max-width: 564px) {
   .lead__title {
     font-size: 56px;
+    max-width: 400px;
   }
 }
 @media screen and (max-width: 410px) {
