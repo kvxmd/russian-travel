@@ -5,10 +5,10 @@
   gap: 18px;
   justify-content: space-between;
   padding: 0;
+  margin: 0;
 }
 @media screen and (max-width: 568px) {
   .footer__links {
-    padding: 0;
     flex-direction: column;
     gap: 32px;
   }

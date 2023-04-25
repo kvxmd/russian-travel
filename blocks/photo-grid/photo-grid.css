@@ -4,20 +4,20 @@
   grid-template-rows: auto;
   gap: 16px;
   justify-items: center;
-  margin: 92px auto;
-  width: 93.731%;
+  margin: 92px 48px;
+  max-width: 1184px;
 }
 @media screen and (max-width: 1024px) {
   .photo-grid {
     gap: 14px;
-    width: 92.137%;
+    max-width: 928px;
   }
 }
 @media screen and (max-width: 768px) {
   .photo-grid {
-    margin: 88px auto 0;
+    margin: 88px 24px 0;
     gap: 16px;
-    width: 95.848%;
+    max-width: 720px;
   }
 }
 @media screen and (max-width: 320px) {
